@@ -1,0 +1,9 @@
+[project]
+# Set this to your Supabase project reference ID.
+# Find it in: Supabase Dashboard → Project Settings → General → Reference ID
+project_id = "your-project-ref"
+
+[db]
+# Migration files are applied in filename order.
+# Run: supabase db push
+migrations_dir = "./migrations"
